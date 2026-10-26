@@ -1,0 +1,33 @@
+# runtime data - never commit
+pool.json
+accounts_sso.jsonl
+wzmm.db
+wzmm.db-journal
+*.db
+*.sqlite3
+videos/
+archive_jobs/
+admin.key
+apikey.txt
+keys.txt
+
+# secrets
+.env
+*.key
+*.pem
+*.cookies.txt
+*.state.json
+*.oneLine.txt
+
+# local
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.bak_*
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
